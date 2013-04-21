@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string></string>
+	<string>com.liftedstudios.github</string>
 	<key>connections</key>
 	<dict>
 		<key>7E9416FB-CF6B-4F43-826F-B4B1E37CBD9A</key>
@@ -49,7 +49,7 @@
 				<key>keyword</key>
 				<string>gh</string>
 				<key>script</key>
-				<string>ruby github.rb "{query}"</string>
+				<string>ruby github.rb &quot;{query}&quot;</string>
 				<key>subtext</key>
 				<string>...</string>
 				<key>title</key>
@@ -119,22 +119,22 @@
 		<key>25712903-63F4-45AA-B7F4-C5B0759B08DC</key>
 		<dict>
 			<key>ypos</key>
-			<real>180</real>
+			<real>180.0</real>
 		</dict>
 		<key>7E9416FB-CF6B-4F43-826F-B4B1E37CBD9A</key>
 		<dict>
 			<key>ypos</key>
-			<real>180</real>
+			<real>180.0</real>
 		</dict>
 		<key>B776E7BD-DC70-4875-B9BB-3009B7201E32</key>
 		<dict>
 			<key>ypos</key>
-			<real>300</real>
+			<real>300.0</real>
 		</dict>
 		<key>D3D42747-D523-4F5E-A2BE-38961D63DC7D</key>
 		<dict>
 			<key>ypos</key>
-			<real>300</real>
+			<real>300.0</real>
 		</dict>
 	</dict>
 	<key>webaddress</key>
