@@ -8,9 +8,15 @@ TODO: Add installation instructions.
 
 ## Usage
 
+### Github Commands
+
 * `gh` launches `https://github.com`
 * `gh foo` searches Github for "foo"
 * `gh user/project` launches a Github project page
+
+### Gist Commands
+
+* `gist` launches `https://gist.github.com`
 
 ## Development
 

@@ -17,6 +17,17 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>B776E7BD-DC70-4875-B9BB-3009B7201E32</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D3D42747-D523-4F5E-A2BE-38961D63DC7D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Lee Dohm</string>
@@ -28,21 +39,6 @@
 	<string>Github</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>plusspaces</key>
-				<false/>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>25712903-63F4-45AA-B7F4-C5B0759B08DC</string>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -68,6 +64,53 @@
 			<key>uid</key>
 			<string>7E9416FB-CF6B-4F43-826F-B4B1E37CBD9A</string>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>25712903-63F4-45AA-B7F4-C5B0759B08DC</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>https://gist.github.com</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>D3D42747-D523-4F5E-A2BE-38961D63DC7D</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>gist</string>
+				<key>text</key>
+				<string>Open Gist</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>B776E7BD-DC70-4875-B9BB-3009B7201E32</string>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -82,6 +125,16 @@
 		<dict>
 			<key>ypos</key>
 			<real>180</real>
+		</dict>
+		<key>B776E7BD-DC70-4875-B9BB-3009B7201E32</key>
+		<dict>
+			<key>ypos</key>
+			<real>300</real>
+		</dict>
+		<key>D3D42747-D523-4F5E-A2BE-38961D63DC7D</key>
+		<dict>
+			<key>ypos</key>
+			<real>300</real>
 		</dict>
 	</dict>
 	<key>webaddress</key>
