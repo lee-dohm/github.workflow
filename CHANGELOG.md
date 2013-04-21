@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.0.3
+
+* Convert to using `bundler` and the `alfred-workflow` gem
+
 ## 0.0.2
 
 * `gist` launches `https://gist.github.com`

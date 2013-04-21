@@ -5,7 +5,6 @@ require 'plist'
 
 config_file = 'config.yml'
 
-#workflow_home=File.expand_path("~/Library/Application Support/Alfred 2/Alfred.alfredpreferences/workflows")
 workflow_home = File.expand_path("~/Cloud Drive/Configuration/Alfred/Alfred.alfredpreferences/workflows")
 
 task :config do
@@ -30,6 +29,11 @@ task "bundle:install" => [:chdir] do
     if ! ok
       puts "fail to install gems (status = #{res.exitstatus})"
     end
+  end
+
+  # Fix up bundle installation
+  if File.exists?('bundle/ruby/1.9.1') && !File.exists?('bundle/ruby/1.8')
+    sh 'mv bundle/ruby/1.9.1 bundle/ruby/1.8'
   end
 end
 
